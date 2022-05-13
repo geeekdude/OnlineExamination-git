@@ -6,6 +6,17 @@
     background-color: #767676;
 }
 
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.centalgn {
+    text-align: center;
+}
+
 nav ul {
     margin: 0px;
     padding: 5px 0px 5px 30px;
@@ -18,4 +29,21 @@ nav li {
 
 a {
     text-decoration: none;
+}
+
+#login {
+
+    background-color: rgba(255,255,255, 0.75);
+    border-radius: 20%;
+    margin-top: 150px;
+    padding: 50px;
+    width: 200px;
+} 
+body{
+    background: url("https://images.shiksha.com/mediadata/images/1576563781phpQj94TQ.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    
 }
